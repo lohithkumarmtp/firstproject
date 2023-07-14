@@ -1,0 +1,75 @@
+
+.three-line-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 20px;
+  }
+  
+  .line {
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    margin: 3px;
+  }
+  #box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px;
+    background-color: rgb(46,49,71);
+    color:white;
+    height:35px;
+  }
+  #box2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px;
+    background-color:aliceblue;
+  }
+  #box2 button{
+border:none;
+outline:none;
+height:30px;
+
+  }
+  #cointainer{
+    position:relative;
+  }
+  
+  .panelhide{ 
+    margin-top: 10px;
+    position:absolute;
+    top:0;
+    left:-500px;
+    background-color: red;
+    height:500px;
+    width:300px;
+    transition: all 1s ease-in;
+  }
+  .panelshow{
+      
+      margin-top: 10px;
+      position:relative;
+      top:0;
+      left:100px;
+      background-color: red;
+      height:500px;
+      width:300px;
+      transition: all 1s ease-in;
+    }
+  
+  ul li{
+    list-style-type: none;
+    padding:10px;
+    margin:10px;
+    border: 1px solid yellow;
+  }
+  
